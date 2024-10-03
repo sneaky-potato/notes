@@ -6,5 +6,6 @@ This a digital hoarding of all my learnings. Let's see where this goes eventuall
 
 Some starting points to navigate in this labyrinth:
 - [[ctf]]
+- [[hardware-security]]
 - [[compilers]]
 - [[reading]]
