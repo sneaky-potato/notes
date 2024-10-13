@@ -10,3 +10,4 @@ Some of the things I picked up from the book, which are worth mentioning here ar
 
 - [[precedence-c]]
 - [[struct-inheritance-c]]
+- [[direct-threaded-code]]
