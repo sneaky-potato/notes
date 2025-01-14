@@ -59,3 +59,25 @@ The output is `argc` and `argv` respectively:
 ```
 
 So, yes this can be used to access the command line arguments without actually implementing any operation to get them in porth. This is completely unintended and was discovered accidentally in one of his streams.
+
+I implemented the load64 and store64 operations because I wanted to print the argv elements in [g4th](https://github.com/sneaky-potato/g4th), consider the following program:
+```pascal title="test.g4th"
+include "std.g4th"
+
+drop // drop argc
+mem swap store64 // store argv into mem
+mem load64 // get argv pointer value on top of stack
+
+100 swap 1 1 syscall3 // print 100 bytes of argv
+```
+
+The following interesting output appears on running as follow:
+```console
+./output foo bar
+```
+
+```console
+./outputfoobarALACRITTY_LOG=/tmp/Alacritty-4608.logALACRITTY_SOCKET=/run/user/1000/Alacritty-:0-
+```
+
+This is argv but since we printed 100 bytes, it started printing the env varaibles of my system, how cool is that?
