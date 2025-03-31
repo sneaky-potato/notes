@@ -16,4 +16,4 @@ Some of the things I picked up from the book, which are worth mentioning here ar
 
 Gem of a [channel](https://www.youtube.com/@TsodingDaily), tsoding is actually a madlad who'd [implement](https://www.youtube.com/watch?v=WnBXLmKk_qw) http web sever-client in assembly just because it can be done.
 
-- [[command-line-args-porth]]
+- [[command-line-args-goof]]

@@ -1,8 +1,8 @@
-# Arguments in porth
+# Arguments in goof
 
-[Porth](https://github.com/sneaky-potato/porth) is a stack based language which has a concatenative syntax. Consider the following porth source code:
+[Goof](https://github.com/sneaky-potato/goof) is a stack based language which has a concatenative syntax. Consider the following goof source code:
 
-```pascal title="test.porth"
+```pascal title="test.goof"
 10 1 dump dump
 ```
 
@@ -48,7 +48,7 @@ Now we have pushed 10 and 1 on top of stack and tried dumping them to stdout whi
 ```
 
 However something interesting happens if we try to compile the following code:
-```pascal title="test.porth"
+```pascal title="test.goof"
 dump dump
 ```
 
@@ -58,17 +58,13 @@ The output is `argc` and `argv` respectively:
 140725129002957
 ```
 
-So, yes this can be used to access the command line arguments without actually implementing any operation to get them in porth. This is completely unintended and was discovered accidentally in one of his streams.
+So, yes this can be used to access the command line arguments without actually implementing any operation to get them in goof. This is completely unintended and was discovered accidentally in one of his streams.
 
-I implemented the load64 and store64 operations because I wanted to print the argv elements in [g4th](https://github.com/sneaky-potato/g4th), consider the following program:
-```pascal title="test.g4th"
-include "std.g4th"
-
-drop // drop argc
-mem swap store64 // store argv into mem
-mem load64 // get argv pointer value on top of stack
-
-100 swap 1 1 syscall3 // print 100 bytes of argv
+I wanted to print the argv elements in [goof](https://github.com/sneaky-potato/goof), consider the following program:
+```pascal title="test.goof"
+drop // get rid of argc
+// try printing 100 bytes of string pointed to by argv
+100 swap 1 1 syscall3 drop
 ```
 
 The following interesting output appears on running as follow:
@@ -77,7 +73,7 @@ The following interesting output appears on running as follow:
 ```
 
 ```console
-./outputfoobarALACRITTY_LOG=/tmp/Alacritty-4608.logALACRITTY_SOCKET=/run/user/1000/Alacritty-:0-
+./outputfoobarALACRITTY_LOG=/tmp/Alacritty-4428.logALACRITTY_SOCKET=/run/user/1000/Alacritty-:0-     
 ```
 
 This is argv but since we printed 100 bytes, it started printing the env varaibles of my system, how cool is that?

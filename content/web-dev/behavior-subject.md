@@ -76,7 +76,7 @@ export class ChartService {
 ...
 ```
 
-And now this can be conviniently consumed by the component like so
+And now this can be conveniently consumed by the component like so
 
 ```js title="my-chart.component.ts"
 ...

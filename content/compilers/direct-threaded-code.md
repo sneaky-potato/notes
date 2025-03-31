@@ -36,13 +36,13 @@ int interp_switch(unsigned char* code, int initval) {
     while (1) {
         switch (code[pc++]) {
             case OP_HALT: return val;
-            case OP_INC: val++; break;
-            case OP_DEC: val--; break;
+            case OP_INC:  val++; break;
+            case OP_DEC:  val--; break;
             case OP_MUL2: val *= 2; break;
             case OP_DIV2: val /= 2; break;
             case OP_ADD7: val += 7; break;
-            case OP_NEG: val = -val; break;
-            default: return val;
+            case OP_NEG:  val = -val; break;
+            default:      return val;
         }
     }
 }
@@ -88,6 +88,14 @@ int interp_cgoto(unsigned char* code, int initval) {
             DISPATCH();
     }
 }
+```
+
+This function can be used conveniently like this:
+```c
+// series of opcodes
+unsigned char* code = (unsigned char*)"\x01\x01\x03\x06\x02\x02\x04\x05\x00";
+int result = interp_switch(code, 1);
+printf("Result = %d\n", result);
 ```
 
 On examining the disassembly of the switch version, one can see that it does the following:
