@@ -17,6 +17,7 @@ Command structure resembles substitute command- `:g/re/command` will run `comman
 - g and s command can be conviniently combined
     - `:g@one@s+const+let+g` matches lines containing `one`
     - and then uses the substitute to replace `const` with `let` (last g for applying substitute on all matches within the matched lines)
+    - could also use `g/one/s/const/let/g`
 - `:g/TODO/t $` copies all lines matching pattern `TODO` at the end of file (:h :copy)
     - Invert also works `:g!/TODO/t $` copy everything except TODOs at end of file
     - `:g/TODO/m $` moves all TODOs instead of copying them
