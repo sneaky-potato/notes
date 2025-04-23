@@ -5,6 +5,7 @@ title: Root
 This a digital hoarding of all my learnings. Let's see where this goes eventually.
 
 Some starting points to navigate in this labyrinth:
+- [[dotfiles]]
 - [[vim]]
 - [[ctf]]
 - [[hardware-security]]
