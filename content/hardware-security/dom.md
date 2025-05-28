@@ -2,6 +2,8 @@
 
 > Powerful mathematical tool to predict a key
 
+This is a very good example of a side channel attack on AES to obtain the last round key.
+
 ## Requirements
 - Access to AES encryption box
 - Ability to obtain ciphertext for any plaintext from the box

@@ -1,3 +1,5 @@
+# Correlation Power Analysis 
+
 > Statistics help crack encryption
 
 This is very similiar to [[dom]], in the sense that requirements and goal for this attack are exactly the same.
