@@ -2,6 +2,8 @@
 
 I had a compilers course in college but it was really boring and not that good. However I explored this domain after graduating and I couldn't thank myself more.
 
+Read about raw bytes from [[elf|Extensible and Linkable Format]]
+
 ## Crafting interpreters
 
 Gem of a book , it is publicly available [here](https://www.craftinginterpreters.com/)
