@@ -51,6 +51,9 @@ func child() {
     cmd.Env = append(os.Environ(), "PATH=/bin")
 
 	must(cmd.Run())
+
+    // Unmount the proc directory after container shuts down
+    must(syscall.Unmount("/proc", 0))
 }
 
 func must(err error) {
