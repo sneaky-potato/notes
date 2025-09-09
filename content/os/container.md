@@ -1,7 +1,7 @@
 ## Containerization
+> Deep inside user space and linux process management
 
 But how is Docker is even implemented? What means to spawn a container?
-The answer to both these questions is closely related to linux process management and user space.
 
 ## Go: minimal container
 Create the following program in a new folder
@@ -71,6 +71,31 @@ func main() {
 	}
 }
 ```
+
+## How does this work
+Consider the following flowchart, it is the explanation for the code snippet given directly above
+
+```mermaid
+flowchart TD
+    A[START] --> B{os.Args}
+    B -- run --> C[run]
+    B -- child --> D[child]
+    B -- other --> E[panic]
+
+    C --> F[exec /proc/self/exe with args]
+    F --> D
+
+    D --> G[sethostname]
+    G --> H[chroot and chdir]
+    H --> J[mount]
+
+    J --> K[exec target command inside container]
+    K --> M[wait for exit and unmount]
+    M --> N[exit child process]
+
+    E --> O[exit main process]
+```
+
 
 ## Minimal filesystem
 We will spawn a container rooted inside the `./fs` directory, for this we need to setup `fs`. Create the following script outside `fs`

@@ -1,6 +1,6 @@
 # Dotfiles
 
-Some files and code snippets here are very important for my use cases. I have documented some snippets that you may find interesting.
+Some files and code snippets here are very important for my use cases. I have documented some snippets that one may find interesting.
 
 > [!IMPORTANT]  
 > Dotfiles are configuration files in Unix-like systems, typically found in a user's home directory and starting with a dot (e.g., .bashrc). They store settings and customizations for various applications and tools.
@@ -16,9 +16,9 @@ My setup consists of the following:
 - [bspwm](https://github.com/baskerville/bspwm) as a tiling window manager
 - [sxhkd](https://github.com/baskerville/sxhkd) as a hotkey daemon
 
-Ovwe the years I have scoured the internet for fixing my dotfiles and here I document the most interesting / useful usecases which I covered.
+Ovwe the years I have scoured the internet for fixing my dotfiles and here I document the most interesting / useful cases.
 
-- [[scratchpad-terminal]]
-- [[sxhkd-help-menu]]
-- [[clipboard]]
-- [[alt-tab]]
+- How to spawn a [[scratchpad-terminal|terminal as scratchpad]]
+- Display a [[sxhkd-help-menu|sxhkd help menu]] whenever you forget any commands
+- Get windows like [[clipboard]]
+- Enable [[alt-tab]] window switching with rofi
