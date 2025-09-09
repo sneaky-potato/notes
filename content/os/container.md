@@ -36,8 +36,13 @@ func run() {
 func child() {
 	fmt.Printf("running %v as %d\n", os.Args[2:], os.Getpid())
     syscall.Sethostname([]byte("container"))
+
+    // Change root to fs directory
 	must(syscall.Chroot(ROOT_DIR))
 	must(syscall.Chdir("/"))
+
+    // Mount /proc to see PID namespace info
+	must(syscall.Mount("proc", "/proc", "proc", 0, ""))
 
 	cmd := exec.Command(os.Args[2], os.Args[3:]...)
 	cmd.Stdin = os.Stdin
@@ -88,18 +93,22 @@ for app in sh ls cat echo ps; do
 done
 ```
 
-This will spawn a child process which exec's the program given by the user (we will try to invoke `./fs/bin/sh`.
+## Spin up container
+This will spawn a child process which execs the program given by the user (we will try to invoke `./fs/bin/sh`).
 - run the script defined above: `sudo ./make-rootfs.sh`
 - build the container binary: `go build -o container main.go`
 - run the container: `sudo ./container run /bin/sh`
 
 ```shell
 $ sudo ./container run /bin/sh
-running [/bin/sh] as 81281
+running [/bin/sh] as 1079
 running [/bin/sh] as 1
 / # ls -a
 .     ..    bin   proc
-/ #
+/ # ps
+PID   USER     TIME  COMMAND
+    1 0         0:00 /proc/self/exe child /bin/sh
+    7 0         0:00 /bin/sh
+    9 0         0:00 ps
+/ # exit
 ```
-
-## Todo: symbolically linking `/proc`
