@@ -8,7 +8,7 @@ Some starting points to navigate in this labyrinth:
 - [[dotfiles]] for ricing nerds, _warning_: I am a tiling window manager user
 - [[vim]] the only editor I will approve of, always
 - [[compilers]] a rather deep dive in compilation, execution, binaries
-- [[os]] for system madlads
+- [[os]] for system _madlads_
 - [[ctf]] a form of competition I take some interest in, sometimes
 - [[hardware-security]] perfect crossover of security and systems
 - [[cpp]] still learning this humongoes language to get better at computer systems
