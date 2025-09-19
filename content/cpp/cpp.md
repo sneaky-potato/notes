@@ -1,3 +1,5 @@
 # C++
 
 - [[atomic]]
+- [[structs]]
+- [[constructors]]
