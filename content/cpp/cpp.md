@@ -3,3 +3,4 @@
 - [[atomic]]
 - [[structs]]
 - [[constructors]]
+- [[templates]]
