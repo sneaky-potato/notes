@@ -29,8 +29,7 @@ typedef struct {
 
 ---
 
-```bash
-# exit32.dmp
+```bash title="exit32.dmp"
 #  ------------ PROGRAM HEADER ------------
 
 01 00 00 00     # 38 p_type: segment type; 1: loadable

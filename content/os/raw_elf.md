@@ -6,8 +6,7 @@ Please check [[elf_header|ELF Header]] and [[pht|Program Header]] formats.
 
 Example of 32 bit ELF that just exits with a status code of 42
 
-```bash
-# exit32.dmp
+```bash title="exit32.dmp"
 #  -------------- ELF HEADER --------------
                 # all numbers are in base 16
                 # 00 number of bytes to be used in the ELF
@@ -61,8 +60,7 @@ CD 80           # 60 syscall >> int 80
 
 Similar example of 64 bit ELF that just exits with a status code of 42
 
-```bash
-# exit64.dmp
+```bash title="exit64.dmp"
 #  -------------- ELF HEADER --------------
                            # all numbers are in base 16
                            # 00 number of bytes to be used in the ELF
@@ -117,7 +115,7 @@ Similar example of 64 bit ELF that just exits with a status code of 42
 
 ## How to get binary
 
-```
+```bash
 $ cut -d'#' -f1 <exit32.dmp | xxd -p -r > exit32
 $ chmod +x exit32
 $ ./exit32

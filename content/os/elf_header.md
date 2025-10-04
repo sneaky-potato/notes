@@ -43,8 +43,7 @@ typedef struct {
 ---
 An example of raw bytes from a 32 bit ELF header
 
-```bash
-# exit32.dmp
+```bash title="exit32.dmp"
 #  -------------- ELF HEADER --------------
                 # all numbers are in base 16
                 # 00 number of bytes to be used in the ELF
@@ -91,7 +90,6 @@ Notice this is actually the magic bytes of the elf
 `7f` is followed by `45 4c 46` which mean ELF when converted into hexadecimal (ascii for ELF)
 
 ```bash
-
 $ readelf -h /bin/ls
 ELF Header:
   Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00

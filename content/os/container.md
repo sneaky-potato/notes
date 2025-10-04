@@ -6,8 +6,7 @@ But how is Docker is even implemented? What means to spawn a container?
 ## Go: minimal container
 Create the following program in a new folder
 
-```go
-// container/main.go
+```go title="container.go"
 package main
 
 import (
@@ -99,9 +98,8 @@ flowchart TD
 
 ## Minimal filesystem
 We will spawn a container rooted inside the `./fs` directory, for this we need to setup `fs`. Create the following script outside `fs`
-```bash
+```bash title="make-rootfs.sh"
 #!/bin/bash
-# container/make-rootfs.sh
 
 # 1. Make sure the fs tree exists
 mkdir -p fs/{bin,proc}
@@ -124,7 +122,7 @@ done
 ## Spin up container
 This will spawn a child process which execs the program given by the user (we will try to invoke `./fs/bin/sh`).
 - run the script defined above: `sudo ./make-rootfs.sh`
-- build the container binary: `go build -o container main.go`
+- build the container binary: `go build -o container container.go`
 - run the container: `sudo ./container run /bin/sh`
 
 ```shell

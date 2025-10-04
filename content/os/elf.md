@@ -13,12 +13,14 @@ It has two main things
 
 ## Structure
 
-- [[elf_header|ELF Header]]: stores locations of *PHT* and *SHT*
-- [[pht|Program Header Table]]: how and where to load ELF file’s data into memory
+- ELF Header: stores locations of *PHT* and *SHT*
+- Program Header Table: how and where to load ELF file’s data into memory
 - Section Header Table: optional map of data to assist in debugging
 - Data: all of binary’s data, *PHT* and *SHT* point to this section
 
-Have a look at raw bytes straight from a [[raw_elf|minimal 32 and 64 bit ELF file]]
+You could start reading about [[elf_header|ELF Header]] and then proceed with [[pht|Program Header]].
+
+But the final icing on the cake is [[raw_elf|Raw ELF files]]
 
 ## 64 bit ELF
 

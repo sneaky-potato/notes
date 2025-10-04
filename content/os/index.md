@@ -1,4 +1,6 @@
-# Operating Systems
+---
+title: operating-systems
+---
 
 At the time of writing this note, I am running a machine with the following specifications:
 - Operating System: Arch Linux
@@ -7,5 +9,6 @@ At the time of writing this note, I am running a machine with the following spec
 
 And that is why much of the notes found here will be related to linux environment.
 
+- Read about raw bytes from [[elf|Extensible and Linkable Format]]
 - Recently I tried writing a minimal [[container]] program in golang
 - How [[lazy-binding-shared-library|lazy binding in shared library]] works to save time in operating systems

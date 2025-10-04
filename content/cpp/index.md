@@ -1,4 +1,6 @@
-# C++
+---
+title: C++
+---
 
 - [[atomic]]
 - [[structs]]

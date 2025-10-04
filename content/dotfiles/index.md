@@ -1,4 +1,6 @@
-# Dotfiles
+---
+title: dotfiles
+---
 
 Some files and code snippets here are very important for my use cases. I have documented some snippets that one may find interesting.
 

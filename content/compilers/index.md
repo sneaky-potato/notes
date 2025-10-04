@@ -1,8 +1,11 @@
+---
+title: Compilers
+---
+
 > Process instructions
 
 I had a compilers course in college but it was really boring and not that good. However I explored this domain after graduating and I couldn't thank myself more.
 
-Read about raw bytes from [[elf|Extensible and Linkable Format]]
 
 ## Crafting interpreters
 
@@ -10,9 +13,9 @@ Gem of a book , it is publicly available [here](https://www.craftinginterpreters
 
 Some of the things I picked up from the book, which are worth mentioning here are as follows:
 
-- Clean way to achieve [[precedence-c|precedence in C]]
-- Hack to get [[struct-inheritance-c|inheritance with structs in C]]
-- Interesting workaround to swtich statements with [[direct-threaded-code|directed threaded code]]
+- [[precedence-c]]
+- [[struct-inheritance-c]]
+- [[direct-threaded-code]]
 
 ## Tsoding
 
