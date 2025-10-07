@@ -1,3 +1,69 @@
+## Templates in functions
+
+Consider this simple template function definition
+
+```cpp
+template<typename T>
+T customMax(T a, T b) {
+    return b < a ? a : b;
+}
+```
+
+Type deduction happens at compile time like so
+
+```cpp
+int main() {
+    std::cout << "templates\n";
+    std::cout << customMax(1, 2) << '\n';
+
+    // customMax<std::string>(std::string, std::string)
+    std::cout << customMax(std::string("hello"), std::string("world")) << '\n';
+
+    // customMax<const char*>(const char*, const char*)
+    std::cout << customMax("hello", "world") << '\n'; // compares addresses and not strings
+
+    // customMax<std::string>(std::string, std::string)
+    std::cout << customMax<std::string>("hello", "world") << '\n';
+    return 0;
+}
+```
+
+A simple definition like the one above comes with some non-negotiable assumptions and constraints
+
+
+These are:
+- `T` must support `<` operator and must return bool when used
+- copy and move constructors must be defined for `T`
+
+```cpp
+std::complex<double> c1, c2;
+std::cout << customMax(c1, c2); // ERROR: no < supported to complex<double>
+
+std::atomic<int> a1{8}, a2{15};
+std::cout << customMax(a1, a2); // ERROR: copying is disabled for atomic
+```
+
+>[!NOTE]
+> Since C++ 20 we can enforce formal constraints for generic code, see [[concepts]]
+
+## Variadic templates
+
+Type safe variadic templates for classes and functions
+```cpp
+template<typename T, typename... Types>
+void print(T firstarg, Types... args) {
+    std::cout << firstArg << " ";
+    print(args...);
+}
+
+// base case function definition
+void print() {}
+
+std::string str = "world";
+print("hello", 7.5, str);
+```
+
+
 ## Find dimension at compile time
 
 Say we have to write metafunction to find the dimension of array of any type at compile time.
