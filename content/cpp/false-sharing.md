@@ -93,7 +93,7 @@ std::thread t2([&](){ increment(pb); });
 
 This time, you will notice time takes turns out to be roughly half of what was observed earlier. For my machine, this new time was `300ms`.  
 Again, we can get the IPC using `perf`
-```
+```shell
 $ perf stat ./a.out
 time: 297 ms
 

@@ -2,10 +2,10 @@
 title: C++
 ---
 
+- [[structs]], their sizes and space they take in memory
 - [[atomic]]
-- [[structs]]
-- [[virtual-functions]]
+- [[virtual-functions]], polymorphism, vtables, dynamic dispatch
 - [[constructors]]
-- [[templates]]
-- [[concepts]]
+- Advanced abstraction mechanism: [[templates]]
+- More advanced abstraction mechanism: [[concepts]]
 - [[false-sharing]]

@@ -11,33 +11,33 @@ Consider this peice of code
 ```cpp
 struct emp {
     char c; // 1
-    int x;  // 4
+    int  x; // 4
     char d; // 1
 };
 
 struct emp_with_padding {
     char c; // 1
     char pad[3];
-    int x;  // 4
+    int  x; // 4
     char d; // 1
     char pad[3];
 };
 
 struct emp_reordered {
-    int x;
+    int  x;
     char c;
     char d;
 };
 
 #pragma pack(1)
 struct emp_pragma_packed {
-    int x;
+    int  x;
     char c;
     char d;
 };
 
 struct emp_packed {
-    int x;
+    int  x;
     char c;
     char d;
 }__attribute__((__packed__));
@@ -59,9 +59,9 @@ GCC does not do structure reordering on itself because the structure might be se
 #include <iostream>
 
 struct Order {
-    int qty;
-    int prc;
-    char side; // buy or sell
+    int  qty;
+    int  prc;
+    char side;      // buy or sell
     char symbol[6]; // ticker symbol name
 };
 static_assert(sizeof(Order) == 16);
