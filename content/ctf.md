@@ -4,4 +4,5 @@ I started to take interest in this domain from my final year at engineering when
 I occasionally solve capture the flag puzzles and problems and try to document any useful learning that I get from them
 
 - [[root-me/]]
+- [[try-hack-me]]
 - [[exploit-education]]
