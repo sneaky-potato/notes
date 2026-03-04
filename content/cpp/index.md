@@ -1,5 +1,5 @@
 ---
-title: C++
+title: c++
 ---
 
 - [[structs]], their sizes and space they take in memory
@@ -8,4 +8,4 @@ title: C++
 - [[constructors]]
 - Advanced abstraction mechanism: [[templates]]
 - More advanced abstraction mechanism: [[concepts]]
-- [[false-sharing]]
+- Cache nuances in [[false-sharing]]

@@ -1,8 +1,8 @@
 ---
-title: Compilers
+title: compilers
 ---
 
-> Process instructions
+> Process instructions that shall process other instructions
 
 I had a compilers course in college but it was really boring and not that good. However I explored this domain after graduating and I couldn't thank myself more.
 
