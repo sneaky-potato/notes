@@ -13,3 +13,4 @@ Some starting points to navigate in this labyrinth:
 - [[hardware-security/]] perfect crossover of security and systems
 - [[cpp/]] still learning this humongoes language to get better at computer systems
 - [[web-dev/]]
+- [[reading]] is where the interesting reading material is at
