@@ -32,7 +32,7 @@ Operating system / Kernel
 
 Networks
 
-- https://sadservers.com
+- Using Cloudflare workers to find whether website is being opened from a university network: [Aadi Bajpai](https://university.aadibajpai.com/)
 - https://iximiuz.com/en/posts/ssh-tunnels
 - https://sandilands.info/nsl/
 - https://beej.us/guide/bgnet0/html/split/ip-subnets-and-subnet-masks.html
@@ -119,7 +119,8 @@ Programming
 
 Tools
 
-- https://boltlessengineer.github.io/posts/neovim-config-without-plugins/
+- [Hands-On Linux & DevOps](https://sadservers.com)
+- [Neovim without plugins](https://boltlessengineer.github.io/posts/neovim-config-without-plugins/)
 - https://github.com/m4xshen/hardtime.nvim
 - https://freestingo.com/en/programming/articles/esoteric-vim/
 - https://github.com/mikesmithgh/vimpromptu
@@ -150,7 +151,6 @@ Blogs
 - https://flak.tedunangst.com/
 - https://timkellogg.me/blog
 - https://blogs.hn/
-- https://university.aadibajpai.com/
 - https://mitchellh.com/writing/contributing-to-complex-projects
 - https://mickens.seas.harvard.edu/wisdom-james-mickens
 - https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf
@@ -164,6 +164,7 @@ Blogs
 - [The Jargon File](http://catb.org/jargon/html/)
 - https://scottaaronson.blog/?p=2756
 - [Raghavendra Kaushik](https://rakaar.github.io/)
+- Creator of ffmpeg, qemu, tcc, quickjs, jslinux: [Fabrice Bellard](https://bellard.org/)
 
 Social
 
