@@ -11,6 +11,8 @@ Operating system / Kernel
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/)
 - [Little book of OS](https://littleosbook.github.io/)
+- [Little Book of Semaphores](https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
+- [What is RCU: Read Copy Update](https://docs.kernel.org/RCU/whatisRCU.html)
 - [CPU Land](https://cpu.land/)
 - [Think OS: A Brief Introduction to Operating Systems](https://greenteapress.com/thinkos/html/index.html)
 - [Tutorial - Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
@@ -44,6 +46,7 @@ Networks
 - [Sockets in the Linux Kernel - Part 2: UDP Socket Lookup on Rx](https://thermalcircle.de/doku.php?id=blog:linux:sockets_in_the_linux_kernel_2_udp_socket_lookup_on_rx)
 - https://labs.iximiuz.com/challenges/
 - https://labs.iximiuz.com/tutorials/user-space-event-delivery-2197d020
+- [24 hours of running an SSH honeypot](https://www.reddit.com/r/selfhosted/s/lk60dG5smR)
 - [Ben's Blogs](https://blog.benjojo.co.uk/)
 - [150 Go script load balancer](https://hackernoon.com/this-150-line-go-script-is-actually-a-full-on-load-balancer)
 - [Email Authentication: A Developer's Guide](https://resend.com/blog/email-authentication-a-developers-guide)
@@ -55,8 +58,8 @@ Security
 
 - https://cryptopals.com/
 - https://microcorruption.com
-- https://ropemporium.com
-- https://guyinatuxedo.github.io/
+- [Learn return-oriented programming through a series of challenges](https://ropemporium.com)
+- [Nightmare: Binary exploitation course](https://guyinatuxedo.github.io/)
 - https://samsclass.info/127/ED_2020.shtml
 - https://x86re.com/index.html
 - https://0xjet.github.io/3OHA.html
@@ -70,7 +73,7 @@ Security
 - https://bugs.xdavidhu.me/google/2021/01/11/stealing-your-private-videos-one-frame-at-a-time/
 - https://bugs.xdavidhu.me/google/2020/03/08/the-unexpected-google-wide-domain-check-bypass/
 - https://blog.malicious.group/from-akamai-to-f5-to-ntlm/
-- https://troopers.de/troopers18/trainings/drqcyk
+- [Reverse Engineering a (M)MORPG](https://troopers.de/troopers18/trainings/drqcyk)
 - https://www.troyhunt.com/sending-spammers-to-password-purgatory-with-microsoft-power-automate-and-cloudflare-workers-kv/
 - https://ostro.ws/post-timing-attacks
 - https://mirzafahad.github.io/2021-02-21-wifi-rouge-access-point-part1/
@@ -79,29 +82,27 @@ Security
 
 Programming
 
-- https://refactoring.guru/
-- http://www.craftinginterpreters.com/contents.html
-- https://teachyourselfcs.com/
-- https://missing.csail.mit.edu/
-- https://gobyexample.com/
-- https://learngitbranching.js.org/
-- https://hillelwayne.com/talks/esolangs/
-- https://makefiletutorial.com/
-- https://regex101.com/
+- [Refactoring Guru](https://refactoring.guru/)
+- [Crafting Interpreters](http://www.craftinginterpreters.com/contents.html)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [Go By Example](https://gobyexample.com/)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [A Brief Introduction to Esoteric Languages](https://hillelwayne.com/talks/esolangs/)
+- [Makefile Tutorial](https://makefiletutorial.com/)
+- [Regex 101](https://regex101.com/)
 - https://preshing.com/20120612/an-introduction-to-lock-free-programming/
 - https://www.1024cores.net/home/lock-free-algorithms/introduction
-- https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
 - https://assets.bitbashing.io/papers/concurrency-primer.pdf
-- https://en.wikipedia.org/wiki/Read-copy-update
 - https://mywiki.wooledge.org/BashPitfalls
 - [Computed goto for efficient dispatch tables](https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables)
 - https://quuxplusone.github.io/blog/2022/06/03/aggregate-parens-init-considered-kinda-bad/
 - https://jesselawson.github.io/getting-started-with-rust/
 - https://rust-exercises.com
-- https://ziglang.org/news/goodbye-cpp/
+- [Goodbye to C++ implementation of Zig](https://ziglang.org/news/goodbye-cpp/)
 - https://cppminiprojects.hashnode.dev/extending-cpp-using-llvm
-- http://gameprogrammingpatterns.com/contents.html
-- https://xeiaso.net/blog/anything-message-queue
+- [Game Programming Patterns](http://gameprogrammingpatterns.com/contents.html)
+- [Anything can be a message queue if you use it wrongly enough](https://xeiaso.net/blog/anything-message-queue)
 - https://abhinavag.medium.com/a-fast-circular-ring-buffer-4d102ef4d4a3
 - https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/
 - https://nghiant3223.github.io/2025/04/15/go-scheduler.html
@@ -113,14 +114,13 @@ Programming
 - https://amandeepsp.github.io/blog/fs-watcher/
 - https://nekrozqliphort.github.io/posts/happens-b4/
 - https://deepsecops.github.io/posts/Branchless-Branching/
-- [Bog O vs hardware](https://blog.codingconfessions.com/p/big-o-vs-hardware)
+- [Big O vs hardware](https://blog.codingconfessions.com/p/big-o-vs-hardware)
 - [Command Line Interface Guidelines](https://clig.dev/)
 - A series of distributed systems challeges brought to you by fly.io: [Gossip Glomers](https://fly.io/dist-sys)
 
 Tools
 
 - [Hands-On Linux & DevOps](https://sadservers.com)
-- [Neovim without plugins](https://boltlessengineer.github.io/posts/neovim-config-without-plugins/)
 - https://github.com/m4xshen/hardtime.nvim
 - https://freestingo.com/en/programming/articles/esoteric-vim/
 - https://github.com/mikesmithgh/vimpromptu
@@ -148,7 +148,6 @@ Blogs
 - https://autotranslucence.wordpress.com/2019/11/26/art-as-the-starting-point/
 - https://notebook.drmaciver.com/posts/2021-07-02-09:29.html
 - [The Fruits of Mass Collaboration](http://www.aaronsw.com/weblog/masscollab)
-- https://flak.tedunangst.com/
 - https://timkellogg.me/blog
 - https://blogs.hn/
 - https://mitchellh.com/writing/contributing-to-complex-projects
@@ -168,13 +167,9 @@ Blogs
 
 Social
 
-- https://lobste.rs
-- https://en.wikipedia.org/wiki/WikiWikiWeb
-- https://www.reddit.com/r/selfhosted/s/lk60dG5smR
-- https://www.reddit.com/r/programminghorror/s/8N8M2yjjJF
-- https://www.reddit.com/r/neovim/s/n7eqf8SGeQ
-- http://rms-open-letter.github.io
-- https://illiniblockchain.notion.site/How-To-Get-Jobs-Internships-fd3476d9a701401ea9b674a86a25720e
+- [Lobsters](https://lobste.rs)
+- [An open letter to remove Richard M. Stallman from all leadership positions](http://rms-open-letter.github.io)
+- [How To Get Jobs/Internships](https://illiniblockchain.notion.site/How-To-Get-Jobs-Internships-fd3476d9a701401ea9b674a86a25720e)
 
 Misc
 
@@ -200,3 +195,4 @@ Misc
 - [Duolingo Research](https://research.duolingo.com/)
 - [Internt Census 2012](https://census2012.sourceforge.net/paper.html)
 - https://mattreadscomics.com/2020/10/13/vertical-scroll-webcomics-strengths/
+
