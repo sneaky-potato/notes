@@ -1,4 +1,6 @@
-### Precedence in C
+---
+title: Precedence in C
+---
 
 The book achieves precedence for different tokens like so, make a file called `compiler.c`
 

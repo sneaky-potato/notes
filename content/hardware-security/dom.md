@@ -1,4 +1,6 @@
-# Difference of Means
+---
+title: Difference of Means
+---
 
 > Powerful mathematical tool to predict a key
 

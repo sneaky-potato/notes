@@ -1,4 +1,6 @@
-# CSP - JSONP
+---
+title: CSP - JSONP
+---
 
 ## Initial Attempt
 

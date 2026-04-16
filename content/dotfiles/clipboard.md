@@ -1,4 +1,6 @@
-# Windows like clipboard
+---
+title: Windows like clipboard
+---
 
 This requires [clipmenu](https://github.com/cdown/clipmenu) to be installed for collecting clips.
 

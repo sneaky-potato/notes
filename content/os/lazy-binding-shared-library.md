@@ -1,4 +1,6 @@
-# Shared Libraries
+---
+title: Shared Libraries
+---
 
 > [!WARNING]
 > Long read, but worth it if one wants to understand shared libraries and their dynamics

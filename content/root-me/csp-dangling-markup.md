@@ -1,4 +1,6 @@
-# CSP - Dangling Markup
+---
+title: CSP - Dangling Markup
+---
 
 ## Initial Attempt
 

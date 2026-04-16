@@ -1,4 +1,6 @@
-# Extensible and Linkable Format
+---
+title: Extensible and Linkable Format
+---
 
 Used as:
 - Executable

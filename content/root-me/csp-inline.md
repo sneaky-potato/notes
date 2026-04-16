@@ -1,4 +1,6 @@
-# CSP Inline code
+---
+title: CSP Inline code
+---
 
 ## Initial attempt
 

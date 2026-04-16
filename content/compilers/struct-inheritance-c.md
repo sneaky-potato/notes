@@ -1,3 +1,7 @@
+---
+title: Struct inheritance in C
+---
+
 >A clever way to achieve polymorphism and inheritance in C using structs
 
 The book talks about implementing strings in a virtual machine written in C. This was very easy in Java but C doesn't provide the privilege to use objects and classes.

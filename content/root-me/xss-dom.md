@@ -1,4 +1,6 @@
-# XSS DOM based
+---
+title: XSS DOM based
+---
 
 ## Initial attempt
 

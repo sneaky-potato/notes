@@ -1,4 +1,6 @@
-# External Scheduler
+---
+title: Extensible Scheduler
+---
 
 Linux kernel 6.12 introduced `sched_ext` (extensible scheduler) as a new scheduling class that allows pluggable CPU schedulers via eBPF.
 

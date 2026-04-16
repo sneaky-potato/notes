@@ -1,4 +1,6 @@
-# ELF Header
+---
+title: ELF Header
+---
 
 The structure looks something like this
 

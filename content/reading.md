@@ -1,10 +1,14 @@
+---
+title: Reading
+---
+
 > read, re read and read again
 
 I read a lot of interesting blogs on the internet, I was struggling to find a
 way to organize all the treasure trove I stumbled into, but now since I have a
 this garden I can put em all here-
 
-Operating system / Kernel
+### Operating system / Kernel
 
 - [Creating Really Teensy ELF Executables for Linux](https://www.muppetlabs.com/%7Ebreadbox/software/tiny/teensy.html)
 - [Linux insides](https://0xax.gitbooks.io/linux-insides/content/)
@@ -32,7 +36,7 @@ Operating system / Kernel
 - [Adopting sudo-rs By Default in Ubuntu 25.10](https://discourse.ubuntu.com/t/adopting-sudo-rs-by-default-in-ubuntu-25-10/60583)
 - [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
 
-Networks
+### Networks
 
 - Using Cloudflare workers to find whether website is being opened from a university network: [Aadi Bajpai](https://university.aadibajpai.com/)
 - https://iximiuz.com/en/posts/ssh-tunnels
@@ -54,7 +58,7 @@ Networks
 - https://vitess.io/blog/2021-06-15-online-ddl-why-no-fk/
 - https://medium.com/capillary-tech/scaling-real-time-systems-part-1-3cf92c1bd474
 
-Security
+### Security
 
 - https://cryptopals.com/
 - https://microcorruption.com
@@ -80,7 +84,7 @@ Security
 - https://decentralizedthoughts.github.io/2020-03-29-private-set-intersection-a-soft-introduction/
 - https://resources.infosecinstitute.com/topics/malware-analysis/
 
-Programming
+### Programming
 
 - [Refactoring Guru](https://refactoring.guru/)
 - [Crafting Interpreters](http://www.craftinginterpreters.com/contents.html)
@@ -118,7 +122,7 @@ Programming
 - [Command Line Interface Guidelines](https://clig.dev/)
 - A series of distributed systems challeges brought to you by fly.io: [Gossip Glomers](https://fly.io/dist-sys)
 
-Tools
+### Tools
 
 - [Hands-On Linux & DevOps](https://sadservers.com)
 - https://github.com/m4xshen/hardtime.nvim
@@ -134,7 +138,7 @@ Tools
 - https://www.cs.swarthmore.edu/~newhall/unixlinks.html#lang
 - https://pages.charlesreid1.com/dont-sudo-pip/
 
-Blogs
+### Blogs
 
 - [Zerodha: 1.5+ million PDFs in 25 minutes](https://zerodha.tech/blog/1-5-million-pdfs-in-25-minutes/)
 - [How Uber Computes ETA at Half a Million Requests per Second](https://newsletter.systemdesign.one/p/uber-eta)
@@ -165,13 +169,13 @@ Blogs
 - [Raghavendra Kaushik](https://rakaar.github.io/)
 - Creator of ffmpeg, qemu, tcc, quickjs, jslinux: [Fabrice Bellard](https://bellard.org/)
 
-Social
+### Social
 
 - [Lobsters](https://lobste.rs)
 - [An open letter to remove Richard M. Stallman from all leadership positions](http://rms-open-letter.github.io)
 - [How To Get Jobs/Internships](https://illiniblockchain.notion.site/How-To-Get-Jobs-Internships-fd3476d9a701401ea9b674a86a25720e)
 
-Misc
+### Misc
 
 - https://thephilosophersmeme.com
 - https://www.edx.org/course/how-to-do-things-with-memes

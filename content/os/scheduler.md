@@ -1,4 +1,6 @@
-# Scheduler
+---
+title: Scheduler
+---
 
 ## Runqueue
 It is the rendezvous of all data structures involved in the scheduler. Reference: [linux/kernel/sched/sched.h](https://github.com/torvalds/linux/blob/v5.5/kernel/sched/sched.h#L847-L1002)

@@ -1,4 +1,6 @@
-# JS - Obfuscation 4
+---
+title: JS - Obfuscation 4
+---
 
 ## Initial Attempt
 

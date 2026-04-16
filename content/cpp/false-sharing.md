@@ -1,3 +1,7 @@
+---
+title: False sharing
+---
+
 > When algorithm cannot go any faster, you exploit the hardware
 
 ## Multiple threads

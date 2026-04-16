@@ -1,4 +1,6 @@
-# XSS - Reflected
+---
+title: XSS - Reflected
+---
 
 ## Initial Attempt
 

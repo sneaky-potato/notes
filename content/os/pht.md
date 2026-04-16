@@ -1,4 +1,6 @@
-# Program Header
+---
+title: Program Header
+---
 
 Program header looks something like this
 

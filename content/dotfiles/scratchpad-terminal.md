@@ -1,4 +1,6 @@
-# Scratch pad
+---
+title: Scratch pad
+---
 
 A scratch pad terminal for quickly running a command on shell without having to start another instance of the terminal somewhere else and coming back.
 

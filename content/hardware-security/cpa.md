@@ -1,4 +1,6 @@
-# Correlation Power Analysis 
+---
+title: Correlation Power Analysis 
+---
 
 > Statistics help crack encryption
 

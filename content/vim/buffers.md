@@ -1,3 +1,7 @@
+---
+title: Buffers
+---
+
 > How to effectively alt-tab when editing a large code base?
 
 ## Buffer jumping

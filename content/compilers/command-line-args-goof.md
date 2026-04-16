@@ -1,4 +1,6 @@
-# Arguments in goof
+---
+title: Arguments in goof
+---
 
 [Goof](https://github.com/sneaky-potato/goof) is a stack based language which has a concatenative syntax. Consider the following goof source code:
 

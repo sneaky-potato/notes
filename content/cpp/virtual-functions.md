@@ -1,3 +1,7 @@
+---
+title: Virtual Functions
+---
+
 ## Size
 
 An empty class (with no data members) has a size of 1, because references to two such objects will not be different if size were 0.

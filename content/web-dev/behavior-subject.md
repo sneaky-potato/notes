@@ -1,4 +1,6 @@
-# Behavior Subject
+---
+title: Behavior Subject
+---
 
 It's a solution for emitting events, much like a pipe in inter process communication. It comes from the [rxjs](https://rxjs.dev/api/index/class/BehaviorSubject) library. I used this with Angular when working on a dashboard project for one of the companies.
 

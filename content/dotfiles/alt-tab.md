@@ -1,4 +1,6 @@
-# Cycle windows
+---
+title: Cycle windows
+---
 
 The one feature I missed the most in a tiling window manager
 

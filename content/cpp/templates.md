@@ -1,4 +1,6 @@
-## Templates in functions
+---
+title: Templates
+---
 
 Consider this simple template function definition
 

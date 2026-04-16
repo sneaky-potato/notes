@@ -1,4 +1,6 @@
-# XSS - AngularJS
+---
+title: XSS - AngularJS
+---
 
 ## Initial Attempt
 

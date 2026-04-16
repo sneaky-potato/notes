@@ -1,4 +1,6 @@
-# Atomic
+---
+title: Atomic
+---
 
 An operation which can be done by a single thread of execution.
 

@@ -1,4 +1,6 @@
-# Help menu for hotkeys
+---
+title: Help menu for hotkeys
+---
 
 Since I use a tiling window manager there are so many hotkeys I forget.
 Hence I have a help menu to remember the keybindings using a rofi window.

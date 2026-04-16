@@ -1,3 +1,7 @@
+---
+title: Concepts
+---
+
 Please check the the customMax example given in [[templates]] to understand this.
 
 C++20 allows to constraint the template argument so that only valid templates can be used. The following example only allows templates which are copyable and have less than operator defined.

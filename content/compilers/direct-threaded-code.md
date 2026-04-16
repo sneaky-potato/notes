@@ -1,4 +1,6 @@
-# Direct Threaded Code
+---
+title: Direct Threaded Code
+---
 
 Also called [Labels as Values](https://gcc.gnu.org/onlinedocs/gcc/Labels-as-Values.html) in the official docs for GCC, it is basically a combination of two new features of C.
 

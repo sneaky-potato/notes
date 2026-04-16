@@ -1,4 +1,6 @@
-# Command Mode
+---
+title: Command Mode
+---
 
 ## Dot Bang
 - You can pipe output of externals commands in current buffer by using `:.!`

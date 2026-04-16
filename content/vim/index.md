@@ -1,12 +1,13 @@
 ---
 title: vim
 ---
-A tool which I have been using for more than a year now. I have found some shenanigans which I find cool (and use sometimes to feel like a hecker).
+A tool which I have been using ever since I start working. I have found some
+shenanigans which I find cool (and use sometimes to save some seconds).
 
 - Something on the [[command-mode]] of vim
 - Use more of [[buffers]]
 - Simple, yet very powerful, [[norm]] command
-- [[g|G]] command is for goats
+- [[g]] command and how to use it
 
 ## References
 - https://learnvim.irian.to/basics/registers

@@ -1,4 +1,6 @@
-# Traffic Control
+---
+title: Traffic Control
+---
 
 > Scheduling but for packets in Linux kernel
 

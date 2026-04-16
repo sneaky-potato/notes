@@ -1,4 +1,6 @@
-# Spectre
+---
+title: Spectre
+---
 
 This attack is based on one of the features introduced in computers to speed up repeatitive tasks.
 

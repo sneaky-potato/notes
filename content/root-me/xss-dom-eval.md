@@ -1,4 +1,6 @@
-# XSS DOM based - eval
+---
+title: XSS DOM based - eval
+---
 
 ## Initial attempt
 

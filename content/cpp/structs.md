@@ -1,4 +1,6 @@
-# Structure Packing
+---
+title: Structure Packing
+---
 
 Members are laid out in the memory in the exact order, they are declared (unless pragma packed is used)
 - char data types can be put anywhere in the memory

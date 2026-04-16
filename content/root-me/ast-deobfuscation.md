@@ -1,4 +1,6 @@
-# AST - Deobfuscation
+---
+title: AST - Deobfuscation
+---
 
 ## Initial Attempt
 

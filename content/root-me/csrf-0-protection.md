@@ -1,4 +1,6 @@
-# CSRF 0 protection
+---
+title: CSRF 0 protection
+---
 
 ## Initial attempt
 
