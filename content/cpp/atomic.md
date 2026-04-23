@@ -1,6 +1,6 @@
 ---
 title: Atomic
-date: 2026-04-16
+date: 2026-04-23
 ---
 
 An operation which can be done by a single thread of execution.
