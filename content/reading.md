@@ -64,12 +64,12 @@ this garden I can put em all here-
 - https://microcorruption.com
 - [Learn return-oriented programming through a series of challenges](https://ropemporium.com)
 - [Nightmare: Binary exploitation course](https://guyinatuxedo.github.io/)
-- https://samsclass.info/127/ED_2020.shtml
-- https://x86re.com/index.html
+- [Introduction to Exploit Development](https://samsclass.info/127/ED_2020.shtml)
+- [Brief introduction to RE, executables, compiling, 32-bit x86 syntax, and stack frames](https://x86re.com/index.html)
 - https://0xjet.github.io/3OHA.html
 - https://wiki.bi0s.in
-- https://pocorgtfo.hacke.rs/
-- https://thecopenhagenbook.com/
+- [Archives of POC||GTFO](https://pocorgtfo.hacke.rs/)
+- [The Copenhagen Book](https://thecopenhagenbook.com/)
 - https://blog.cryptographyengineering.com/2012/02/28/how-to-fix-internet/
 - https://charlesreid1.com/wiki/MITM
 - https://desfontain.es/privacy/index.html
