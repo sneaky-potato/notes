@@ -1,4 +1,5 @@
 ---
+date: 2026-04-21
 title: vim
 ---
 A tool which I have been using ever since I start working. I have found some
