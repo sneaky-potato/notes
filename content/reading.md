@@ -15,19 +15,19 @@ this garden I can put em all here-
 - [Linux insides](https://0xax.gitbooks.io/linux-insides/content/)
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/)
-- [Little book of OS](https://littleosbook.github.io/)
-- [Little Book of Semaphores](https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
+- [Little book of [OS](https://littleosbook.github.io/) and [Semaphores](https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
 - [What is RCU: Read Copy Update](https://docs.kernel.org/RCU/whatisRCU.html)
-- [CPU Land](https://cpu.land/)
-- [Think OS: A Brief Introduction to Operating Systems](https://greenteapress.com/thinkos/html/index.html)
-- [Tutorial - Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
+- Informative guide on how CPUs work: [Putting the "You" in CPU](https://cpu.land/)
+- [Think OS](https://greenteapress.com/thinkos/html/index.html): A Brief Introduction to Operating Systems
+- Tutorial - [Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
+- Beej's Guide to [IPC](https://beej.us/guide/bgipc/html/split/)
 - [Unwinding the stack the hard way](https://lesenechal.fr/en/linux/unwinding-the-stack-the-hard-way)
 - [htop explained](https://peteris.rocks/blog/htop/#virt-vsz-virtual-image)
 - [The TTY demystified](http://www.linusakesson.net/programming/tty/index.php)
 - [Cache Associativity](https://en.algorithmica.org/hpc/cpu-cache/associativity/)
-- [Dive into Systems](https://diveintosystems.org/)
+- Dive into Systems: [Computer Architecture](https://diveintosystems.org/book/C5-Arch/instrexec.html)
 - [Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
-- [Padding is hard](https://dave.cheney.net/2015/10/09/padding-is-hard)
+- Dave Cheney: [Padding is hard](https://dave.cheney.net/2015/10/09/padding-is-hard) and [The empty struct](https://dave.cheney.net/2014/03/25/the-empty-struct)
 - [Kernel device scheduler](https://michealkeines.dev/posts/kernel-dev-simple-scheduler.html)
 - [Systemd socket activation](https://ilmanzo.github.io/post/systemd-socket-activated-services/)
 - [SIGHUP Signal for Configuration Reloads](https://blog.devtrovert.com/p/sighup-signal-for-configuration-reloads)
@@ -40,12 +40,10 @@ this garden I can put em all here-
 ### Networks
 
 - Using Cloudflare workers to find whether website is being opened from a university network: [Aadi Bajpai](https://university.aadibajpai.com/)
-- https://iximiuz.com/en/posts/ssh-tunnels
-- https://sandilands.info/nsl/
-- https://beej.us/guide/bgnet0/html/split/ip-subnets-and-subnet-masks.html
-- https://beej.us/guide/
-- https://beej.us/guide/bgipc/html/split/
-- https://sandilands.info/sgordon/arp-spoofing-on-wired-lan
+- [SSH Tunnels](https://iximiuz.com/en/posts/ssh-tunnels)
+- [Networking and Security with Linux](https://sandilands.info/nsl/)
+- [ARP Spoofing on a Wired LAN](https://sandilands.info/sgordon/arp-spoofing-on-wired-lan)
+- Beej's Guide to [Network Programming](https://beej.us/guide/) and [Network Concepts](https://beej.us/guide/bgnet0/html/split/index.html)
 - https://hechao.li/2018/05/21/Tun-Tap-Interface/
 - https://medium.com/@aos2022rnn/ebpf-fantastic-network-i-o-speeds-and-where-to-find-them-1d83e2fd6b2f
 - [Sockets in the Linux Kernel - Part 2: UDP Socket Lookup on Rx](https://thermalcircle.de/doku.php?id=blog:linux:sockets_in_the_linux_kernel_2_udp_socket_lookup_on_rx)
@@ -63,13 +61,13 @@ this garden I can put em all here-
 
 - https://cryptopals.com/
 - https://microcorruption.com
-- [Learn return-oriented programming through a series of challenges](https://ropemporium.com)
+- Learn return-oriented programming through a series of [challenges](https://ropemporium.com)
 - [Nightmare: Binary exploitation course](https://guyinatuxedo.github.io/)
 - [Introduction to Exploit Development](https://samsclass.info/127/ED_2020.shtml)
 - [Brief introduction to RE, executables, compiling, 32-bit x86 syntax, and stack frames](https://x86re.com/index.html)
 - https://0xjet.github.io/3OHA.html
 - https://wiki.bi0s.in
-- [Archives of POC||GTFO](https://pocorgtfo.hacke.rs/)
+- Archives of [POC||GTFO](https://pocorgtfo.hacke.rs/)
 - [The Copenhagen Book](https://thecopenhagenbook.com/)
 - https://blog.cryptographyengineering.com/2012/02/28/how-to-fix-internet/
 - https://charlesreid1.com/wiki/MITM
@@ -80,13 +78,14 @@ this garden I can put em all here-
 - https://blog.malicious.group/from-akamai-to-f5-to-ntlm/
 - [Reverse Engineering a (M)MORPG](https://troopers.de/troopers18/trainings/drqcyk)
 - https://www.troyhunt.com/sending-spammers-to-password-purgatory-with-microsoft-power-automate-and-cloudflare-workers-kv/
-- https://ostro.ws/post-timing-attacks
+- Fun with [Timing Attacks](https://ostro.ws/post-timing-attacks)
 - https://mirzafahad.github.io/2021-02-21-wifi-rouge-access-point-part1/
 - https://decentralizedthoughts.github.io/2020-03-29-private-set-intersection-a-soft-introduction/
 - https://resources.infosecinstitute.com/topics/malware-analysis/
 
 ### Programming
 
+- Beej's Guide to [Git](https://beej.us/guide/bggit/html/split/)
 - [Refactoring Guru](https://refactoring.guru/)
 - [Crafting Interpreters](http://www.craftinginterpreters.com/contents.html)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
@@ -133,14 +132,15 @@ this garden I can put em all here-
 - https://gist.github.com/romainl/4b9f139d2a8694612b924322de1025ce
 - https://namingschemes.com/
 - https://geoff.greer.fm/2009/06/17/hostnames/
-- https://sysblob.com/posts/plex/
 - https://github.com/Bubka/2FAuth
+- [Plex and the *ARR stack](https://sysblob.com/posts/plex/)
 - https://feedly.com/
 - https://www.cs.swarthmore.edu/~newhall/unixlinks.html#lang
 - https://pages.charlesreid1.com/dont-sudo-pip/
 
 ### Blogs
 
+- List of blogs to follow: [Blogs](https://blogs.hn/)
 - [Zerodha: 1.5+ million PDFs in 25 minutes](https://zerodha.tech/blog/1-5-million-pdfs-in-25-minutes/)
 - [How Uber Computes ETA at Half a Million Requests per Second](https://newsletter.systemdesign.one/p/uber-eta)
 - [Good and Bad Procrastination](http://www.paulgraham.com/procrastination.html)
@@ -154,7 +154,6 @@ this garden I can put em all here-
 - https://notebook.drmaciver.com/posts/2021-07-02-09:29.html
 - [The Fruits of Mass Collaboration](http://www.aaronsw.com/weblog/masscollab)
 - https://timkellogg.me/blog
-- https://blogs.hn/
 - https://mitchellh.com/writing/contributing-to-complex-projects
 - https://mickens.seas.harvard.edu/wisdom-james-mickens
 - https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf
