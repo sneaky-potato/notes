@@ -16,8 +16,16 @@ Some starting points to navigate in this labyrinth:
 - [[web-dev/]]
 - [[reading]] is where the interesting reading material is at
 
+## How to use this site?
 
 > [!tip] Navigation
 > Press CTRL + K to search across the site.
 > Native search is supported.
+
+Everything here is written to be useful, not pretty.
+
+This site is intentionally dense.  
+Follow links, jump across topics, and explore.
+
+If you find something useful, that's already a *win*.
 
