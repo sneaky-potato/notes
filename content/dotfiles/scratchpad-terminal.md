@@ -1,5 +1,5 @@
 ---
-date: 2026-04-16
+date: 2026-04-23
 title: Scratch pad
 ---
 
@@ -28,7 +28,7 @@ else
 fi
 ```
 
-Finally add a bspwm rule here `~/.config/bsowm/bspwmrc`
+Finally add a bspwm rule here `~/.config/bspwm/bspwmrc`
 ```bash title="baspwmrc"
 bspc rule -a scpad sticky=on state=floating rectangle=800x500+550+200
 ```

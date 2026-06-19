@@ -1,5 +1,5 @@
 ---
-date: 2026-04-23
+date: 2026-04-29
 title: Root
 ---
 
@@ -15,6 +15,7 @@ Some starting points to navigate in this labyrinth:
 - [[cpp/]] still learning this humongous language to get better at computer systems
 - [[web-dev/]]
 - [[reading]] is where the interesting reading material is at
+- [[open-source/]] contributions
 
 ## How to use this site?
 
